@@ -29,7 +29,11 @@ const linjer = [
     ["Pengene", "sier", "klirr, klirr, klirr"],
     ["Fuglene", "sier", "pip, pip, pip"],
     ["Avisene", "sier", "risj, rasj, risj"],
-    ["Kuene", "sier", "mø, mø, mø"]
+    ["Kuene", "sier", "mø, mø, mø"],
+    ["Flaskene", "sier", "klirr, klirr, klirr"],
+    ["Bestefar", "sier", "snork, snork, snork"],
+    ["Røykerne", "sier", "host, hark, host"],
+    ["Kjærestene", "sier", "kyss, smatt, klin"]
 ]
 
 // skriv sangen
@@ -39,7 +43,7 @@ for (const linje of linjer) {
         linje[2] + ", \n" +
         linje[2] + ". \n" +
         linje[0] + " på bussen " + linje[1] + " " + linje[2] + ", \n" +
-        "gjennom hele byen." + "🎵 \n"
+        "gjennom hele byen." + " 🎵 \n"
     )
 }
 
