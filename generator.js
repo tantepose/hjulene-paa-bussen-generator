@@ -2,7 +2,7 @@
  // hjulene på bussen-generator 1.0 //
 /////////////////////////////////////
 
-// substantiv, verb, onomatopoetikon 
+// definer substantiv, verb, onomatopoetikon 
 const linjer = [
     ["Hjulene", "de går", "rundt og rundt"],
     ["Motoren", "sier", "brom, brom, brom"],
@@ -32,10 +32,7 @@ const linjer = [
     ["Kuene", "sier", "mø, mø, mø"]
 ]
 
-// stokk om linjene for ny sang hver gang
-// const stokkaLinjer = linjer.sort((a, b) => 0.5 - Math.random());
-
-// skriv hele sangen
+// skriv sangen
 for (const linje of linjer) {
     console.log(
         linje[0] + " på bussen " + linje[1] + " " + linje[2] + ", \n" +
